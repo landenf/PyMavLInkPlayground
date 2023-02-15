@@ -30,5 +30,5 @@ the_connection.mav.command_long_send(the_connection.target_system, the_connectio
 #Command acknowledge returned 
 msg = the_connection.recv_match(type='COMMAND_ACK', blocking=True)
 print(msg)                   
-# Returns: command: command# that was sent, command valid and executed                  
+# Returns: command: command# that was sent, command valid and executed sometimes                 
 
